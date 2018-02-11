@@ -1,0 +1,145 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Vipasha}{Dhiman}
+      {  Bachelor of Technology, Student}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Address}
+   A11/172 Air India Colony, Vasant Vihar 
+   New Delhi, Delhi, India 110057
+  \section{Tel \& Mail}
+    +91 7531043938
+    \href{mailto:vipashadhiman11@gmail.com}{\textbf{vipashadhiman11@}\\{\textbf{gmail.com}}
+  \section{Web \& Git}
+    \href{http://vipashadhiman11.github.io}{vipashadhiman11}\\.github.io}
+    \href{https://github.com/vipashadhiman11}{github.com/}\\vipashadhiman11}
+  \section{Programming}
+    \textbf{C/C++}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Python}\includegraphics[scale=0.40]{img/3stars.png}
+    \textbf{HTML/CSS}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{JavaScript}\includegraphics[scale=0.40]{img/2stars.png}
+    \textbf{PHP}\includegraphics[scale=0.40]{img/2stars.png}
+    \textbf{Java}\includegraphics[scale=0.40]{img/2stars.png}
+  \section{OS Preferences}
+    \textbf{GNU/Linux}\includegraphics[scale=0.40]{img/5stars.png}    \textbf{Windows}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{MacOS}\includegraphics[scale=0.40]{img/2stars.png}
+     \section{Skills}
+    \textbf{Databases:}{My SQL, MongoDB}
+    \textbf{APIs}{Facebook,Twitter, Google}
+    \textbf{Other s/w:}{Gephi, Git, Lamp, Xamp, Weka}
+  \section{Others}
+  \textbf{Event Manager:}{Taraangana, Cultural fest}
+    \textbf{1st Position:}{codesprint conducted by Google applied CS with android, Oracle sponsored trip to attend GHCI}
+    \textbf{Participated:}{Firebase Hackathon, ACM ICPC 2016, Facebook Hacker Cup }
+    \textbf{Core Member:}{ACM IGDTUW, INNERVE(technical fest)}
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {08/17 - Now}
+    {Invadex,Noida, India }
+    {Intern}
+    {Working in the field of online social media data analysis and machine learning. \\}
+  \entry
+    {06/17 - 07/17}
+    {Delhi Traffic Police Headquarters}
+    {Intern}
+    {Worked on two projects:
+* Document Tracking System                                           
+* Online Social Media   \\}
+   
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2015-Now}
+    {Bachelor of Technology}
+    {Indira Gandhi Delhi Technical University for women,India}
+    {84.01\% till the end of 2nd year\\
+    Major: Information Technology\\}
+    
+  \entry
+    {2015}
+    {Senior Secondary}
+    {Kendriya Vidhyalaya, sec 8 RK Puram, New Delhi}
+    {93.8\% \\
+    Subjects: Physics, Chemistry, Mathematics, English, Computer Science\\}
+ 
+  \entry
+    {2013}
+    {Secondary}
+    {Kendriya Vidhyalaya, sec 8 RK Puram, New Delhi}
+    {10.0/10.0 CGPA \\}
+\end{entrylist}
+
+\section{Projects}
+\begin{entrylist}
+ \entry
+    {11/2017}
+    {E-learning Portal   }
+    { Skills Used: Moodle, PHP, HTML, CSS }
+    {  Working on the development of an E-Learning Portal for Delhi Police.\\}
+  \entry{10/2017}
+    {Panic Button }
+    { Skills Used: Google APIs, HTML, CSS, PHP, Javascript, MySQL}
+    {Application that has an SOS button which when clicked by victim sends a text message to the nearest hospital and provide a list of immediate aids that can be used for the patient’s quick treatment by any nearest person available. \\}
+  \entry
+    {06/2017}
+    {Document Tracking System }
+    {Skills Used: HTML, PHP, CSS, JavaScript, MySQL}
+    {This system tracks the current status of any document within the area of headquarters. Special Feature:Includes a timeline to track the departments it travelled (with the number of days written on its edges)\\}
+   \entry{07/2017}
+    {Online Social Media Analytics}
+    { Skills Used: Facebook and Twitter APIs, Python, HTML,CSS, Data analysis tools, MongoDB.}
+    {Automates the replies on behalf of the Delhi Traffic Police to the queries of general public on Facebook and Twitter and analyse the traffic condition in Delhi for some useful conclusions.I also have attended a workshop in IIIT Hyderabad for better understanding of things.\\}
+
+\entry
+    {2016-17}
+    {Websites}
+    { Skills Used: Aframe, PHP, HTML, CSS, MySQL, JavaScript }
+    {  \href{http://www.taarangana.com}{www.taarangana.com}(Assosiate)
+       \href{http://www.innerve-igdtuw.com}{www.innerve-igdtuw.com}(Team Lead).\\}
+\end{entrylist}
+
+
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}
